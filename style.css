@@ -198,7 +198,7 @@ a {
   padding: 8px 6px;
   position: relative;
   text-transform: uppercase;
-  z-index: 2;
+  z-index: 999;
 }
 .emergency-trigger-panel {
   display: none !important;
@@ -209,7 +209,14 @@ a {
   left: 26px;
   padding: 20px;
   top: 0;
-  width: 315px;
+  width: 300px;
+}
+
+
+.app-button > a:hover {
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 5px !important;
 }
 @media (min-width: 992px) {
   .emergency-trigger-close {
@@ -245,6 +252,20 @@ a {
 
 .carousel-item > img {
   height: 100%;
+}
+
+/* notification  */
+.overflow-auto {
+  animation: scroll-left 15s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); /* Adjust percentage based on content width */
+  }
 }
 
 /* recharge section  */

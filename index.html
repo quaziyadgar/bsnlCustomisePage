@@ -47,7 +47,8 @@
                     href="https://www.facebook.com/bsnlcorporate"
                     target="_blank"
                     ><i class="fa-brands fa-facebook"></i
-                  ></a> &nbsp;
+                  ></a>
+                  &nbsp;
                   <a href="https://twitter.com/bsnlcorporate" target="_blank"
                     ><i class="fa-brands fa-twitter"></i
                   ></a>
@@ -192,7 +193,7 @@
     <div class="header-nav position-sticky top-0 bg-light z-1">
       <!-- BEGIN NAVIGATION -->
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-xl navbar-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
               <img
@@ -864,8 +865,16 @@
 
       <!-- END NAVIGATION -->
     </div>
+     <!-- notifications  -->
+     <section class="container-fluid">
+      <div class="row flex-nowrap overflow-auto">
+        <span class="col-6 text-danger">Bharat fibre is now available.</span>
+        <span class="col-6 text-danger">BSLN 4G is availabe.</span>
+        <!-- Add more columns as needed -->
+      </div>
+    </section>
     <!-- download-app-button -->
-    <div class="emergency-trigger" id="emergency-trigger">
+    <div class="emergency-trigger">
       <button
         data-toggle-class-trigger=""
         data-toggle-class-target=".emergency-trigger"
@@ -878,25 +887,23 @@
       >
         d<br />o<br />w<br />n<br />l<br />o<br />a<br />d<br /><br />a<br />p<br />p
       </button>
-      <div class="emergency-trigger-panel d-flex align-items-center">
-        <div class="row no-gutters w-100">
-          <div class="col-md-6 text-right app-button">
+      <div class="emergency-trigger-panel d-flex align-items-center" id="emergency-trigger-panel">
+        <div class="row no-gutters">
+          <div class="col-md-12 m-5 app-button">
             <a
               class="btn-transparent"
               href="https://play.google.com/store/search?q=selfcare+bsnl+app&amp;c=apps"
               target="_blank"
-              style="border: none"
             >
               <i class="fa-brands fa-android"></i>
               Android</a
             >
           </div>
-          <div class="col-md-6 text-right">
+          <div class="col-md-12 text-right m-5 app-button">
             <a
               class="btn-transparent"
               href="https://apps.apple.com/in/app/bsnl-selfcare/id1586971313"
               target="_blank"
-              style="border: none"
               ><i class="fa-brands fa-apple"></i> iPhone</a
             >
           </div>
@@ -943,6 +950,12 @@
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
         </div>
         <div
           class="carousel-inner"
@@ -951,7 +964,7 @@
           <div class="container">
             <div class="carousel-item active">
               <img
-                src="https://bsnl.co.in/images/whatsapp_web_banner_01.jpg"
+                src="assets//slide1.jpg"
                 class="d-block w-100"
                 alt="img-error"
                 loading="lazy"
@@ -959,15 +972,19 @@
             </div>
             <div class="carousel-item">
               <img
-                src="https://bsnl.co.in/images/OTT49.jpeg"
+                src="assets/slide2.jpg"
                 class="d-block w-100"
                 alt="..."
                 loading="lazy"
               />
             </div>
             <div class="carousel-item">
-              <img src="https://bsnl.co.in/images/Banner_Cloudpabx.png"
-              class="d-block w-100" alt="..." loading="lazy"
+              <img src="assets/slide3.jpg" class="d-block w-100" alt="..."
+              loading="lazy"/>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/slide4.jpg" class="d-block w-100" alt="..."
+              loading="lazy"/>
             </div>
           </div>
         </div>
@@ -993,6 +1010,8 @@
         </button>
       </div>
     </div>
+   
+    
     <!-- recharge section -->
     <div class="container recharge-section-container">
       <div class="recharge-area-section" data-layout="standard">
@@ -1046,7 +1065,7 @@
           <div class="col-md-12">
             <div class="fiber_class">
               <div class="row">
-                <div class="col-md-4 my-5">
+                <div class="col-md-6 col-lg-4 my-5">
                   <div
                     class="card"
                     style="
@@ -1079,7 +1098,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 my-5">
+                <div class="col-md-6 col-lg-4 my-5">
                   <div
                     class="card"
                     style="
@@ -1101,7 +1120,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 my-5">
+                <div class="col-md-6 col-lg-4 my-5">
                   <div
                     class="card"
                     style="
@@ -1177,7 +1196,7 @@
                     </div>
                   </div> -->
                 </div>
-                <div class="col-md-4 my-5">
+                <div class="col-md-6 col-lg-4 my-5">
                   <div
                     class="card"
                     style="
@@ -1228,7 +1247,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 my-5">
+                <div class="col-md-6 col-lg-4 my-5">
                   <div
                     class="card"
                     style="
@@ -1268,7 +1287,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 my-5">
+                <div class="col-md-6 col-lg-4 my-5">
                   <div
                     class="card"
                     style="

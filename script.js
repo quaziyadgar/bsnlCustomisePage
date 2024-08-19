@@ -3,7 +3,7 @@
 
 function handleDownload(value) {
     console.log(value);
-  let element = document.getElementsByClassName("emergency-trigger-panel");
+  let element = document.getElementById("emergency-trigger-panel");
   if (value) element.style = "display: block !important";
   else element.style = "display: none !important";
 }
