@@ -156,9 +156,9 @@ a {
 .hide-search-input {
   display: none !important;
 }
-/* .navbar-brand > img {
-  border-radius: 50% !important;
-} */
+.navbar-brand > img {
+  height: 4rem;
+}
 .nav-link {
   color: #000000;
   opacity: 0.7;
