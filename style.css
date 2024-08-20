@@ -283,8 +283,9 @@ a {
   align-items: center;
   /* border: 1px solid red; */
 }
-.active {
-  background-color: #df0303;
+
+.badge{
+  cursor: pointer;
 }
 .badge-container {
   padding-top: 15px;
