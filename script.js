@@ -9,10 +9,10 @@ function handleDownload(value) {
 }
 
 function handleBadgeColor(value) {
-  document.getElementById("badge1").style.background = "#010c3a";
-  document.getElementById("badge2").style.background = "#010c3a";
-  document.getElementById("badge3").style.background = "#010c3a";
+  document.getElementById("badge1").style.background = "var(--light-theme-main-color)";
+  document.getElementById("badge2").style.background = "var(--light-theme-main-color)";
+  document.getElementById("badge3").style.background = "var(--light-theme-main-color)";
   let element = document.getElementById(value);
-  element.style.background = "#df0303";
+  element.style.background = "var(--light-theme-dropdown-bg-color)";
 }
 handleBadgeColor('badge1');  //default call for badge 1
